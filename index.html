@@ -16,7 +16,12 @@
       <button id="modeBtn">Switch to Countdown</button>
     </div>
 
-    <input id="countdownInput" type="number" placeholder="Seconds" hidden>
+    <input id="countdownInput" type="number" step="0.1" placeholder="Enter time">
+    <select id="unit">
+      <option value="seconds">Seconds</option>
+      <option value="minutes">Minutes</option>
+      <option value="hours">Hours</option>
+    </select>
 
     <div class="buttons">
       <button id="start">Start</button>
