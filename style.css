@@ -1,0 +1,52 @@
+:root {
+  --bg: #f4f4f4;
+  --text: #000;
+  --card: #fff;
+}
+
+.dark {
+  --bg: #121212;
+  --text: #fff;
+  --card: #1e1e1e;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  background: var(--card);
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+}
+
+#display {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+button, input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  flex: 1;
+}

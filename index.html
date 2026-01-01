@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultimate Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="timer-container">
+    <h1>⏱️ Ultimate Timer</h1>
+
+    <div id="display">00:00</div>
+
+    <div class="mode">
+      <button id="modeBtn">Switch to Countdown</button>
+    </div>
+
+    <input id="countdownInput" type="number" placeholder="Seconds" hidden>
+
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <button id="darkMode">🌙 Dark Mode</button>
+  </div>
+
+  <audio id="alarm" src="alarm.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
